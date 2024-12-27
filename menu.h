@@ -1,10 +1,6 @@
 #ifndef MENU_H
 #define MENU_H
 
-// Prototypes des fonctions du menu
-void display_menu();
-void convert_length();
-void convert_temperature();
-void convert_currency();
+void create_menu(GtkWidget *window);
 
 #endif // MENU_H
